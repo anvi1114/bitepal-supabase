@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import JSONResponse
-from app.schemas import QuestionCreateSchema, QuestionSchema
+from app.schemas.questions import QuestionCreateSchema, QuestionSchema
 from app.supabase_client import supabase
 
 router = APIRouter()
